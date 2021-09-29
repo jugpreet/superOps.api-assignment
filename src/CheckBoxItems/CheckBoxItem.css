@@ -1,0 +1,33 @@
+.MainContainer{
+    display: inline-grid;
+    width: 49%;
+    background: whitesmoke;
+    
+}
+
+.SearchTAB{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 35px;
+    border: solid 1px cadetblue;
+    border-radius: 4px;
+    
+}
+.maxlist {
+    list-style-type:none;
+    padding:0 0 0 20px;
+} 
+.maxlist li .list-item {
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: left;
+}
+.maxlist li .list-item label {padding:0 15px;}
+.maxlist li .list-item .imagediv {margin-left: auto; display: flex; align-items: center;}
+.maxlist li .list-item .imagediv img:last-child {margin-left: 10px;}
+.images{
+    width: 14px;
+}
+
